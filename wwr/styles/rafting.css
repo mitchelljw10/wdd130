@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+    --primary-color: #61887F;
+    --secondary-color: #7CB6D1;
+    --accent1-color: #3B93BD;
+    --accent2-color: #C2D2DA;
+
+    --heading-font: 'oxygen', static;
+    --paragraph-font: 'red hat display', variable;
+
+    --nav-backgroud-color: #61887F;
+    --nav-link-color: #7CB6D1;
+    --nav-hover-link-color: #3B93BD;
+    --nav-hover-background-color: #C2D2DA;
+}
+
+.rafting {
+    text-align: center;
+    top: 125px;
+    background: rgba(0, 0, 0, 0.379);
+}
+
+div img {
+    width: auto;
+    height: 100%;
+    float: right;
+}
+
+.mission-statement {
+    background: rgba(2, 63, 154, 0.379);
+    top: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+    background-color: var(--accent2-color);
+    position: relative;
+}
+
+div h1 {
+    position: relative;
+    color: white;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+    background-image: url("./../images/rafting.jpg");
+    height: 600px;
+}
+
+.mission-statement-text {
+    color: white;
+    display: inline-block;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+
