@@ -10,15 +10,65 @@
     --paragraph-font: 'red hat display', variable;
 
     --nav-backgroud-color: #61887F;
-    --nav-link-color: #7CB6D1;
+    --nav-link-color: #0f5373;
     --nav-hover-link-color: #3B93BD;
     --nav-hover-background-color: #C2D2DA;
+}
+
+header {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    display: flex;
+    margin-left: 75px;
+}
+
+.img-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-col {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px;
+    align-items: center;
+}
+
+.img-style {
+    width: 170px;
+}
+
+section h3 {
+    display: flex;
+    flex-wrap: wrap
 }
 
 .rafting {
     text-align: center;
     top: 125px;
     background: rgba(0, 0, 0, 0.379);
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center
 }
 
 div img {
@@ -38,7 +88,7 @@ div img {
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
+    margin: 0 auto;
 }
 
 article {
@@ -91,5 +141,14 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.spacer {
+    width: 200px;
+}
 
