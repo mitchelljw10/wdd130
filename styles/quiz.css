@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    font-size: 1.1rem;
+    color: rgb(19, 16, 180);
+    margin: 1rem;
+    text-align: center; 
+}
+
+form {
+    width: 850px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+}
+
+label {
+    text-align: left;
+    padding-right: 0.8rem
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.firstq {
+    margin-top: 10px
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(36, 36, 183);
+    color: #fff;
+    border-radius: .5rem;
+    padding: .40rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 0.8rem auto 0;
+    width: 850px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}

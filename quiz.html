@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML & CSS Quiz - User Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Basic HTML & CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <div class="form-item">
+                    <label for="q1">1. What does the acronym HTML stand for?</label>
+                    <input class="firstq" type="text" id="q1" name="q1">
+                </div>
+                <label for="q2">2. What does the CSS property "margin" control?</label>
+                <textarea id="q2" name="q2" rows="4" placeholder="..."></textarea>
+                <div>
+                    <label for="q3">3. Which HTML tag is used to define an unordered list?</label>
+                    <select id="q3" name="q3">
+                        <option value="" disabled="disabled" selected="selected">Choose one...</option>
+                        <option value="il">&lt;il&gt;</option>
+                        <option value="ol">&lt;ol&gt;</option>
+                        <option value="ul">&lt;ul&gt;</option>
+                        <option value="unordered list">&lt;unordered list&gt;</option>
+                        <option value="bulleted list">&lt;bulleted list&gt;</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="q4">4. What is the right margin given the following declaration?<br>
+                        &nbsp; &nbsp; margin: 5px 10px 15px 20px</label>
+                    <input type="number" id="q4" name="q4"><p style="display:inline">&nbsp;px</p>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2024 | HTML & CSS - User Quiz</p>
+    </footer>
+</body>
+</html>
