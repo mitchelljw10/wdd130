@@ -16,13 +16,14 @@
 }
 
 header {
-    margin: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     align-content: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .logo {
@@ -33,6 +34,8 @@ header {
 .img-row {
     display: flex;
     flex-direction: row;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .img-col {
@@ -56,6 +59,7 @@ section h3 {
     text-align: center;
     top: 125px;
     background: rgba(0, 0, 0, 0.379);
+    color: white;
 }
 
 .history {
@@ -87,8 +91,6 @@ div img {
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
-    margin: 0 auto;
 }
 
 article {
@@ -99,7 +101,6 @@ article {
 
 div h1 {
     position: relative;
-    color: white;
 }
 
 h1, h2 {
@@ -111,6 +112,8 @@ h1, h2 {
     position: relative;
     background-image: url("./../images/rafting.jpg");
     height: 600px;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .mission-statement-text {
@@ -146,9 +149,194 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .spacer {
     width: 200px;
 }
 
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(36, 36, 183);
+    color: #fff;
+    border-radius: .5rem;
+    padding: .40rem;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.title {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-form-section {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.map-form-inner-section {
+    padding: 40px;
+}
+
+.arrow {
+    float: none;
+    width: 150px;
+}
+
+.contact-button {
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.trips-section {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.arrow-contact-row {
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.trip-image {
+    width: 40%
+}
+
+.trip-description-section {
+    width: 60%;
+    padding: 35px;
+}
+
+.trip-row {
+    margin: 25px;
+}
+
+.trips-table {
+    margin: 25px;
+    text-align: left;
+    width: 800px
+}
+
+.home-body {
+    margin: 0;
+}
+
+.home-header {
+    border: none;
+}
+
+.full-width-div {
+    background: url("./../images/full_width.png") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 330px;
+    padding: 75px 0;
+
+}
+
+.link-to-trips {
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+ .home-page-rafting {
+    width: 350px;
+ }
+
+ .footer-border {
+    border-top: 1px solid black;
+ }
