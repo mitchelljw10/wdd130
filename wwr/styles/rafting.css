@@ -65,8 +65,13 @@ section h3 {
 .history {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center
+    grid-template-rows: 30% 70%;
+    justify-items: center;
+    padding: 0 200px 0 200px
+}
+
+.history-paragraph {
+    width: 850px;
 }
 
 .adventure {
@@ -87,16 +92,17 @@ div img {
     height: 150px;
     margin-left: 50px;
     margin-right: 50px;
+    font-size: 10px;
+    padding: 20px;
+    position: relative;
 }
 
 body {
     font-family: var(--paragraph-font);
 }
 
-article {
-    padding: 20px;
-    background-color: var(--accent2-color);
-    position: relative;
+div {
+    
 }
 
 div h1 {
@@ -119,6 +125,7 @@ h1, h2 {
 .mission-statement-text {
     color: white;
     display: inline-block;
+    font-size: 16px;
 }
 
 nav {
@@ -256,16 +263,24 @@ button:hover {
     width: 150px;
 }
 
-.contact-button {
-    width: 200px;
-    padding: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 .trips-section {
     width: 1160px;
     margin: 0 auto;
+}
+
+.contact-button {
+    width: 200px;
+    padding: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 700;
+    color: #293bc5;
+}
+
+.trips-page-heading {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .arrow-contact-row {
@@ -315,6 +330,11 @@ button:hover {
 .link-to-trips {
     text-align: center;
     font-size: 30px;
+    color: #61887F;
+}
+
+.trips-link {
+    color: #2434b0;
 }
 
 .grid-layout {
@@ -340,3 +360,15 @@ button:hover {
  .footer-border {
     border-top: 1px solid black;
  }
+
+ .home-page-filler-title {
+    color: #0f5373;
+    font-size: 22px;
+    font-weight: 800;
+ }
+
+ .home-page-filler-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
